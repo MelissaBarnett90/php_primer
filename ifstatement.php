@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Primer - If Statement</title>
-</head>
-<body>
+<?php 
+     $title = "If Statement";
+    include 'includes/header.php'
+?>
+
     <h3 style="color: green"></h3> 
 
     <!-- If statement to carry out action based on value of varibale -->
@@ -34,8 +30,4 @@
             echo "<h2 style='color: red'>You have failed.</h2>";
         }
     ?>
-
-
-
-</body>
-</html>
+<?php require 'includes/footer.php' ?>

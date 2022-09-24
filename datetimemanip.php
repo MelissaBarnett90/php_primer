@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Primer - Date and Time Manipulation</title>
-</head>
-<body>
+<?php 
+     $title = "Date Time Manipulation";
+    include 'includes/header.php'
+?>
+
     <h1>Date and Time Manipulation</h1>
 
     <?php
@@ -28,5 +24,5 @@
         print date("j od F Y, \a\\t g.i.a", time());
       
     ?>
-</body>
-</html>
+
+<?php require 'includes/footer.php' ?>
