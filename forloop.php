@@ -4,7 +4,7 @@
 ?>
 
 
-<h1>For Loop</h1>
+<h1><?php echo $title ?></h1>
 
 <?php
     //Foor loop

@@ -29,5 +29,9 @@
         
         echo "<h1>My Name is: $name </h1>";
     ?>
+    
+    <hr/>
+
+    <button type="button" class="btn btn-dark">Click Me!</button>
 
 <?php require 'includes/footer.php' ?>
