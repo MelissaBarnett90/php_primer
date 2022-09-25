@@ -33,5 +33,8 @@
     <hr/>
 
     <button type="button" class="btn btn-dark">Click Me!</button>
+    <button type="button" class="btn btn-primary">Click Me!</button>
+    <button type="button" class="btn btn-success">Click Me!</button>
+    <a href="http://heroku.com" target="blank" class="btn btn-danger">Heroku.com</a>
 
 <?php require 'includes/footer.php' ?>
